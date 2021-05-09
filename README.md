@@ -4,7 +4,7 @@
 This repository is nothing but developing APIs with modern javascript. 
 The repository also includes new features like promises, arrow functions etc. which comes with the ES6 release.
 
-Contents
+Contents:
 
 1. Understanding XHR Object
 2. Working With JSON
