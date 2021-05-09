@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <title>Chuck Norris Joke Generator</title>
+  <style>
+    @font-face{
+      font-family: chucky;
+      src: url(alwaystogether.otf);
+    }
+    h3{
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+    }
+    ul > * {
+      list-style-type: upper-roman;
+      font-family: chucky;
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+      border: 1px dashed black;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" align="center">
+    <div class="row">
+      <div class="three columns">&nbsp;</div>
+      <div class="six columns">
+        <img src="cn.png" style="border-radius: 180px; border:2px solid ; padding: 4px;">
+        <h3>Chuck Norris Joke Generator</h3>
+        <form>
+          <div>
+          <input type="number" id="number" style="width: 100%;">
+        </div>
+        <div>
+          <button class="get-jokes" style="width: 100%;">Get Jokes</button>
+        </div>
+        </form>
+        <ul class="jokes"></ul>
+      </div>
+      <div class="three columns">&nbsp;</div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
